@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C7FD0F61D21DE9A00F70B2E /* FlashLightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7FD0F51D21DE9A00F70B2E /* FlashLightViewController.swift */; };
 		680A39B81BB2F43700130038 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680A39B71BB2F43700130038 /* AppDelegate.swift */; };
-		680A39BA1BB2F43700130038 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680A39B91BB2F43700130038 /* ViewController.swift */; };
 		680A39BD1BB2F43700130038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680A39BB1BB2F43700130038 /* Main.storyboard */; };
 		680A39BF1BB2F43700130038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 680A39BE1BB2F43700130038 /* Assets.xcassets */; };
 		680A39C21BB2F43700130038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680A39C01BB2F43700130038 /* LaunchScreen.storyboard */; };
@@ -26,9 +26,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C7FD0F51D21DE9A00F70B2E /* FlashLightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashLightViewController.swift; sourceTree = "<group>"; };
 		680A39B41BB2F43700130038 /* Flashlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		680A39B71BB2F43700130038 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		680A39B91BB2F43700130038 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		680A39BC1BB2F43700130038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		680A39BE1BB2F43700130038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		680A39C11BB2F43700130038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,8 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				680A39B71BB2F43700130038 /* AppDelegate.swift */,
-				680A39B91BB2F43700130038 /* ViewController.swift */,
 				680A39BB1BB2F43700130038 /* Main.storyboard */,
+				4C7FD0F51D21DE9A00F70B2E /* FlashLightViewController.swift */,
 				680A39BE1BB2F43700130038 /* Assets.xcassets */,
 				680A39C01BB2F43700130038 /* LaunchScreen.storyboard */,
 				680A39C31BB2F43700130038 /* Info.plist */,
@@ -196,7 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				680A39BA1BB2F43700130038 /* ViewController.swift in Sources */,
+				4C7FD0F61D21DE9A00F70B2E /* FlashLightViewController.swift in Sources */,
 				680A39B81BB2F43700130038 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,6 +387,7 @@
 				680A39D31BB2F43700130038 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		680A39D41BB2F43700130038 /* Build configuration list for PBXNativeTarget "FlashlightTests" */ = {
 			isa = XCConfigurationList;
@@ -395,6 +396,7 @@
 				680A39D61BB2F43700130038 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
